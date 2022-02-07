@@ -15,12 +15,40 @@ body {
     margin: 0 auto;
 }
 
+/*HEADER*/
+
 .header-div {
     width: 100%;
-    height: calc( 15vh - 6vh );
-    margin: 3vh 0;
-    background-color: #E579E6;
+    /* height: calc( 15vh - 6vh );
+    margin: 3vh 0; */
+    background-color: silver;
 }
+
+#logo-img {
+    height: 50px;
+}
+
+.header-div-nav-ul {
+    list-style: none;
+}
+
+.header-div-nav-ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.header-div-nav-ul a {
+    text-decoration: none;
+    display: inline-block;
+    color: darkgray;
+}
+
+.header-div-nav-ul li:hover {
+    background-color: black;
+    border-radius: 3px;
+}
+
+/*MAIN*/
 
 .section-1-div {
     width: 100%;
