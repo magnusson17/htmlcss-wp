@@ -174,10 +174,11 @@ body {
 /*FOOTER*/
 .footer-div {
     width: 100%;
-    height: calc( 10vh - 3vh );
-    margin-bottom: 3vh;
-    background-color: #8801FE;
+    /* height: calc( 10vh - 3vh );
+    margin-bottom: 3vh; */
+    /* background-color: #8801FE; */
     text-align: center;
+    padding: 80px 0 40px 0;
 }
 
 .heart-style {
