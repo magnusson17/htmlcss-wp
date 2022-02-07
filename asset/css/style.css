@@ -50,6 +50,7 @@ body {
 }
 
 /*MAIN*/
+/*section 1*/
 .section-1-first-div {
     width: 100%;
     /* height: calc( 30vh - 3vh );
@@ -88,6 +89,7 @@ body {
     color: white;
 }
 
+/*section 2*/
 .section-2-first-div {
     width: 100%;
     height: calc( 45vh - 1.5vh );
@@ -95,6 +97,7 @@ body {
     background-color: #0086FF;
 }
 
+/*section 2 header*/
 .section-2-header {
     width: 100%;
     height: calc(20% - 1.5vh);
@@ -102,6 +105,7 @@ body {
     background-color: #ABCFE7;
 }
 
+/*section 2 column*/
 .section-2-column-container {
     height: calc(80% - 1.5vh);
     margin-bottom: 1.5vh;
@@ -122,6 +126,41 @@ body {
     float: left;
 }
 
+.column-side-1-img-container, .column-center-img-container, .column-side-2-img-container {
+    width: 100%;
+    height: 100px; /*come farlo piu responsive?*/
+    border-radius: 10px;
+    position: relative;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.column-side-1-img-container {
+    background-image: url("../img/img-1.jpg");
+}
+
+.column-center-img-container {
+    background-image: url("../img/img-2.jpg");
+}
+
+.column-side-2-img-container {
+    background-image: url("../img/img-3.jpg");
+}
+
+.column-side-1-img-overlay, .column-center-img-overlay, .column-side-2-img-overlay {
+    width: 100%;
+    height: 100px; /*come farlo piu responsive?*/
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/*FOOTER*/
 .footer-div {
     width: 100%;
     height: calc( 10vh - 3vh );
