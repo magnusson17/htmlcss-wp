@@ -23,8 +23,8 @@ body {
     width: 100%;
     /* height: calc( 15vh - 6vh );
     margin: 3vh 0; */
-    background-color: silver;
-    margin: 10px 0;
+    /* background-color: silver; */
+    margin: 20px 0;
 }
 
 #logo-img {
@@ -32,23 +32,21 @@ body {
     /*come farlo piu responsive?*/
 }
 
-.header-div-nav-ul {
-    list-style: none;
+.header-div-nav {
+    padding-top: 10px;
 }
 
-.header-div-nav-ul li {
-    display: inline-block;
-    padding: 5px;
-}
-
-.header-div-nav-ul a {
+.header-div-nav a {
     text-decoration: none;
     display: inline-block;
     color: darkgray;
+    padding: 3px;
+    margin-right: 10px;
 }
 
-.header-div-nav-ul li:hover {
+.header-div-nav a:hover {
     background-color: black;
+    color: white;
     border-radius: 3px;
 }
 
