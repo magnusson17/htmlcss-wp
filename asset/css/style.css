@@ -21,9 +21,6 @@ body {
 /*HEADER*/
 .header-div {
     width: 100%;
-    /* height: calc( 15vh - 6vh );
-    margin: 3vh 0; */
-    /* background-color: silver; */
     margin: 20px 0;
 }
 
@@ -54,9 +51,6 @@ body {
 /*section 1*/
 .section-1-first-div {
     width: 100%;
-    /* height: calc( 30vh - 3vh );
-    margin-bottom: 3vh; */
-    /* background-color: #E1D67A; */
     position: relative;
     margin-bottom: 20px;
 }
@@ -94,17 +88,11 @@ body {
 /*section 2*/
 .section-2-first-div {
     width: 100%;
-    /* height: calc( 45vh - 1.5vh );
-    margin-bottom: 1.5vh; */
-    /* background-color: #0086FF; */
 }
 
 /*section 2 header*/
 .section-2-header {
     width: 100%;
-    /* height: calc(20% - 1.5vh);
-    margin-bottom: 1.5vh;
-    background-color: #ABCFE7; */
     margin-bottom: 20px;
 }
 
@@ -113,27 +101,18 @@ body {
 }
 
 /*section 2 column*/
-/* .section-2-column-container {
-    height: calc(80% - 1.5vh);
-    margin-bottom: 1.5vh;
-} */
-
 .section-2-column-container h3 {
     margin: 20px 0 10px 0;
 }
 
 .section-2-column-side {
     width: 25%;
-    /* height: 100%;
-    background-color: #ABCFE7; */
     float: left;
 }
 
 .section-2-column-center {
     width: calc( 50% - 3% );
     margin: 0 1.5%;
-    /* height: 100%;
-    background-color: #ABCFE7; */
     float: left;
 }
 
@@ -174,9 +153,6 @@ body {
 /*FOOTER*/
 .footer-div {
     width: 100%;
-    /* height: calc( 10vh - 3vh );
-    margin-bottom: 3vh; */
-    /* background-color: #8801FE; */
     text-align: center;
     padding: 80px 0 40px 0;
 }
