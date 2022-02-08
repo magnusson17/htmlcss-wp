@@ -26,7 +26,7 @@ body {
 
 #logo-img {
     height: 50px;
-    /*come farlo piu responsive?*/
+    /*come farlo piu responsive? non puoi per ora*/
 }
 
 .header-div-nav {
@@ -35,6 +35,7 @@ body {
 
 .header-div-nav a {
     text-decoration: none;
+    text-transform: uppercase;
     display: inline-block;
     color: darkgray;
     padding: 3px;
@@ -57,7 +58,7 @@ body {
 
 .section-1-img-container {
     width: 100%;
-    height: 400px; /*come farlo piu responsive?*/
+    height: 400px; /*come farlo piu responsive? non puoi per ora*/
     border-radius: 10px;
 
     background-image: url("../img/banner.jpg");
@@ -66,9 +67,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.section-1-img-overlay {
-    width: 100%;
-    height: 400px; /*come farlo piu responsive?*/
+.overlay {
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
@@ -119,7 +118,7 @@ body {
 
 .column-side-1-img-container, .column-center-img-container, .column-side-2-img-container {
     width: 100%;
-    height: 200px; /*come farlo piu responsive?*/
+    height: 200px; /*come farlo piu responsive? non puoi per ora*/
     border-radius: 10px;
     position: relative;
 
@@ -133,23 +132,11 @@ body {
 }
 
 .column-center-img-container {
-    background-image: url("../img/img-2.jpg");
+    background-image: url("../img/banner-2.jpg");
 }
 
 .column-side-2-img-container {
     background-image: url("../img/img-3.jpg");
-}
-
-.column-side-1-img-overlay, .column-center-img-overlay, .column-side-2-img-overlay {
-    width: 100%;
-    height: 200px; /*come farlo piu responsive?*/
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.2);
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
 }
 
 /*FOOTER*/
