@@ -63,6 +63,7 @@ body {
     background-image: url("../img/banner.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .section-1-img-overlay {
@@ -124,6 +125,7 @@ body {
 
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .column-side-1-img-container {
